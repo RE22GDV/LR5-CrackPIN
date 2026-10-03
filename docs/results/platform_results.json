@@ -1,0 +1,41 @@
+{
+  "platform": "Codewars",
+  "kata_id": "5efae11e2d12df00331f91a6",
+  "language": "Python",
+  "runtime": "3.11",
+  "recorded_date": "2026-10-03",
+  "source": "Скриншоти, надані користувачем",
+  "sample_tests": {
+    "passed": 2,
+    "failed": 0,
+    "platform_total_ms": 321,
+    "test_body_ms": 14.89
+  },
+  "full_tests": {
+    "passed": 52,
+    "failed": 0,
+    "sample_assertions": 2,
+    "random_assertions": 50,
+    "platform_total_ms": 3185,
+    "sample_body_ms": 16.82,
+    "random_body_ms": 2805.43
+  },
+  "final_submit_screen_present": false,
+  "screenshots": [
+    {
+      "file": "docs/figures/proof_code.png",
+      "description": "Код рішення; Python 3.11",
+      "sha256": "92dcf779800f40c367a8ff70703835c81b52519fef19c9a90b6a68eec3ee3ee6"
+    },
+    {
+      "file": "docs/figures/proof_tests.png",
+      "description": "Два пробні тести; 321 мс; 0 помилок",
+      "sha256": "21e64c767f38a638fa9fbfa7364e20e9e1a970595b818994259e280562c56c07"
+    },
+    {
+      "file": "docs/figures/proof_full_tests.png",
+      "description": "Повний прогін; 52 перевірки; 3185 мс; 0 помилок",
+      "sha256": "b68cfec3c05f9bbb0d1d442460233cac49f59e81da797d01c9f29f8bbd7cd95a"
+    }
+  ]
+}

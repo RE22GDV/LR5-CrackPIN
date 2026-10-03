@@ -1,0 +1,19 @@
+{
+  "cpu": [
+    {
+      "Name": "Intel(R) Core(TM) i9-14900K",
+      "Manufacturer": "GenuineIntel",
+      "NumberOfCores": 24,
+      "NumberOfLogicalProcessors": 32,
+      "MaxClockSpeed": 3200,
+      "L2CacheSize": 32768,
+      "L3CacheSize": 36864
+    }
+  ],
+  "memory_bytes": 102772916224,
+  "os": {
+    "Caption": "Майкрософт Windows 11 Pro",
+    "Version": "10.0.26200",
+    "BuildNumber": "26200"
+  }
+}

@@ -1,0 +1,1456 @@
+{
+  "protocol_version": 1,
+  "status": "completed",
+  "started_at_utc": "2026-10-03T15:39:04.470447+00:00",
+  "time_limit_seconds": 1500,
+  "machine": {
+    "cpu": [
+      {
+        "Name": "Intel(R) Core(TM) i9-14900K",
+        "Manufacturer": "GenuineIntel",
+        "NumberOfCores": 24,
+        "NumberOfLogicalProcessors": 32,
+        "MaxClockSpeed": 3200,
+        "L2CacheSize": 32768,
+        "L3CacheSize": 36864
+      }
+    ],
+    "memory_bytes": 102772916224,
+    "os": {
+      "Caption": "Майкрософт Windows 11 Pro",
+      "Version": "10.0.26200",
+      "BuildNumber": "26200"
+    }
+  },
+  "runtime": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "logical_cpus": 32,
+    "hash_backend": "hashlib MD5, двійкове порівняння digest",
+    "timer": "time.perf_counter"
+  },
+  "method": "Кожна ціль — останнє слово лексикографічного перебору заданого алфавіту.",
+  "notes": [
+    "Реальний CPU-перебір із генерацією, ASCII-кодуванням, MD5 і порівнянням.",
+    "Вимірюється найгірший випадок, а не середній випадок випадкового пароля.",
+    "Паралельний дослід виконує той самий обсяг роботи 62**4 для 1–16 процесів.",
+    "Запуск процесів і прогрівання вилучено з паралельного таймера; диспетчеризація включена.",
+    "Графіки та Word/PDF будуються після CPU-експериментів.",
+    "Windows використовується звичайно: частоти CPU не фіксуються, фонове навантаження не ізольовано."
+  ],
+  "serial": [
+    {
+      "alphabet_id": "digits",
+      "label": "Цифри",
+      "alphabet": "0123456789",
+      "alphabet_size": 10,
+      "width": 3,
+      "space": 1000,
+      "entropy_uniform_bits": 9.965784284662087,
+      "samples": [
+        {
+          "attempts": 1000,
+          "seconds": 0.0006003000016789883,
+          "recovered": "999",
+          "expected": "999",
+          "target_md5": "b706835de79a2b4e80506f582af3676a",
+          "complete": true,
+          "rate_per_second": 1665833.7451325746,
+          "deadline_reached": false
+        },
+        {
+          "attempts": 1000,
+          "seconds": 0.0005787999998574378,
+          "recovered": "999",
+          "expected": "999",
+          "target_md5": "b706835de79a2b4e80506f582af3676a",
+          "complete": true,
+          "rate_per_second": 1727712.5090641093,
+          "deadline_reached": false
+        },
+        {
+          "attempts": 1000,
+          "seconds": 0.000587200000154553,
+          "recovered": "999",
+          "expected": "999",
+          "target_md5": "b706835de79a2b4e80506f582af3676a",
+          "complete": true,
+          "rate_per_second": 1702997.2747561252,
+          "deadline_reached": false
+        }
+      ],
+      "median_seconds": 0.000587200000154553,
+      "complete": true
+    },
+    {
+      "alphabet_id": "digits",
+      "label": "Цифри",
+      "alphabet": "0123456789",
+      "alphabet_size": 10,
+      "width": 4,
+      "space": 10000,
+      "entropy_uniform_bits": 13.287712379549449,
+      "samples": [
+        {
+          "attempts": 10000,
+          "seconds": 0.00582360000043991,
+          "recovered": "9999",
+          "expected": "9999",
+          "target_md5": "fa246d0262c3925617b0c72bb20eeb1d",
+          "complete": true,
+          "rate_per_second": 1717150.9030916628,
+          "deadline_reached": false
+        },
+        {
+          "attempts": 10000,
+          "seconds": 0.005788800001027994,
+          "recovered": "9999",
+          "expected": "9999",
+          "target_md5": "fa246d0262c3925617b0c72bb20eeb1d",
+          "complete": true,
+          "rate_per_second": 1727473.7420923451,
+          "deadline_reached": false
+        },
+        {
+          "attempts": 10000,
+          "seconds": 0.00578730000052019,
+          "recovered": "9999",
+          "expected": "9999",
+          "target_md5": "fa246d0262c3925617b0c72bb20eeb1d",
+          "complete": true,
+          "rate_per_second": 1727921.4830924873,
+          "deadline_reached": false
+        }
+      ],
+      "median_seconds": 0.005788800001027994,
+      "complete": true
+    },
+    {
+      "alphabet_id": "digits",
+      "label": "Цифри",
+      "alphabet": "0123456789",
+      "alphabet_size": 10,
+      "width": 5,
+      "space": 100000,
+      "entropy_uniform_bits": 16.609640474436812,
+      "samples": [
+        {
+          "attempts": 100000,
+          "seconds": 0.05936859999928856,
+          "recovered": "99999",
+          "expected": "99999",
+          "target_md5": "d3eb9a9233e52948740d7eb8c3062d14",
+          "complete": true,
+          "rate_per_second": 1684392.0860724077,
+          "deadline_reached": false
+        },
+        {
+          "attempts": 100000,
+          "seconds": 0.0587041999988287,
+          "recovered": "99999",
+          "expected": "99999",
+          "target_md5": "d3eb9a9233e52948740d7eb8c3062d14",
+          "complete": true,
+          "rate_per_second": 1703455.6301251913,
+          "deadline_reached": false
+        },
+        {
+          "attempts": 100000,
+          "seconds": 0.05880530000104045,
+          "recovered": "99999",
+          "expected": "99999",
+          "target_md5": "d3eb9a9233e52948740d7eb8c3062d14",
+          "complete": true,
+          "rate_per_second": 1700526.9932851407,
+          "deadline_reached": false
+        }
+      ],
+      "median_seconds": 0.05880530000104045,
+      "complete": true
+    },
+    {
+      "alphabet_id": "digits",
+      "label": "Цифри",
+      "alphabet": "0123456789",
+      "alphabet_size": 10,
+      "width": 6,
+      "space": 1000000,
+      "entropy_uniform_bits": 19.931568569324174,
+      "samples": [
+        {
+          "attempts": 1000000,
+          "seconds": 0.6031853000004048,
+          "recovered": "999999",
+          "expected": "999999",
+          "target_md5": "52c69e3a57331081823331c4e69d3f2e",
+          "complete": true,
+          "rate_per_second": 1657865.3359081014,
+          "deadline_reached": false
+        },
+        {
+          "attempts": 1000000,
+          "seconds": 0.5892378999997163,
+          "recovered": "999999",
+          "expected": "999999",
+          "target_md5": "52c69e3a57331081823331c4e69d3f2e",
+          "complete": true,
+          "rate_per_second": 1697107.399236338,
+          "deadline_reached": false
+        },
+        {
+          "attempts": 1000000,
+          "seconds": 0.602289300000848,
+          "recovered": "999999",
+          "expected": "999999",
+          "target_md5": "52c69e3a57331081823331c4e69d3f2e",
+          "complete": true,
+          "rate_per_second": 1660331.6711729595,
+          "deadline_reached": false
+        }
+      ],
+      "median_seconds": 0.602289300000848,
+      "complete": true
+    },
+    {
+      "alphabet_id": "digits",
+      "label": "Цифри",
+      "alphabet": "0123456789",
+      "alphabet_size": 10,
+      "width": 7,
+      "space": 10000000,
+      "entropy_uniform_bits": 23.253496664211536,
+      "samples": [
+        {
+          "attempts": 10000000,
+          "seconds": 5.926449499998853,
+          "recovered": "9999999",
+          "expected": "9999999",
+          "target_md5": "283f42764da6dba2522412916b031080",
+          "complete": true,
+          "rate_per_second": 1687350.9172738139,
+          "deadline_reached": false
+        },
+        {
+          "attempts": 10000000,
+          "seconds": 5.9232032999989315,
+          "recovered": "9999999",
+          "expected": "9999999",
+          "target_md5": "283f42764da6dba2522412916b031080",
+          "complete": true,
+          "rate_per_second": 1688275.6666484508,
+          "deadline_reached": false
+        },
+        {
+          "attempts": 10000000,
+          "seconds": 5.912620299999617,
+          "recovered": "9999999",
+          "expected": "9999999",
+          "target_md5": "283f42764da6dba2522412916b031080",
+          "complete": true,
+          "rate_per_second": 1691297.5115281204,
+          "deadline_reached": false
+        }
+      ],
+      "median_seconds": 5.9232032999989315,
+      "complete": true
+    },
+    {
+      "alphabet_id": "lower",
+      "label": "Малі латинські літери",
+      "alphabet": "abcdefghijklmnopqrstuvwxyz",
+      "alphabet_size": 26,
+      "width": 1,
+      "space": 26,
+      "entropy_uniform_bits": 4.700439718141092,
+      "samples": [
+        {
+          "attempts": 26,
+          "seconds": 2.0700001186924055e-05,
+          "recovered": "z",
+          "expected": "z",
+          "target_md5": "fbade9e36a3f36d3d676c1b808451dd7",
+          "complete": true,
+          "rate_per_second": 1256038.5753225894,
+          "deadline_reached": false
+        },
+        {
+          "attempts": 26,
+          "seconds": 1.6099998902063817e-05,
+          "recovered": "z",
+          "expected": "z",
+          "target_md5": "fbade9e36a3f36d3d676c1b808451dd7",
+          "complete": true,
+          "rate_per_second": 1614906.9424263828,
+          "deadline_reached": false
+        },
+        {
+          "attempts": 26,
+          "seconds": 0.0001267000006919261,
+          "recovered": "z",
+          "expected": "z",
+          "target_md5": "fbade9e36a3f36d3d676c1b808451dd7",
+          "complete": true,
+          "rate_per_second": 205209.1543647232,
+          "deadline_reached": false
+        }
+      ],
+      "median_seconds": 2.0700001186924055e-05,
+      "complete": true
+    },
+    {
+      "alphabet_id": "lower",
+      "label": "Малі латинські літери",
+      "alphabet": "abcdefghijklmnopqrstuvwxyz",
+      "alphabet_size": 26,
+      "width": 2,
+      "space": 676,
+      "entropy_uniform_bits": 9.400879436282183,
+      "samples": [
+        {
+          "attempts": 676,
+          "seconds": 0.0004126999992877245,
+          "recovered": "zz",
+          "expected": "zz",
+          "target_md5": "25ed1bcb423b0b7200f485fc5ff71c8e",
+          "complete": true,
+          "rate_per_second": 1637993.7028512305,
+          "deadline_reached": false
+        },
+        {
+          "attempts": 676,
+          "seconds": 0.0004095999993296573,
+          "recovered": "zz",
+          "expected": "zz",
+          "target_md5": "25ed1bcb423b0b7200f485fc5ff71c8e",
+          "complete": true,
+          "rate_per_second": 1650390.6277009945,
+          "deadline_reached": false
+        },
+        {
+          "attempts": 676,
+          "seconds": 0.00040550000085204374,
+          "recovered": "zz",
+          "expected": "zz",
+          "target_md5": "25ed1bcb423b0b7200f485fc5ff71c8e",
+          "complete": true,
+          "rate_per_second": 1667077.6783713363,
+          "deadline_reached": false
+        }
+      ],
+      "median_seconds": 0.0004095999993296573,
+      "complete": true
+    },
+    {
+      "alphabet_id": "lower",
+      "label": "Малі латинські літери",
+      "alphabet": "abcdefghijklmnopqrstuvwxyz",
+      "alphabet_size": 26,
+      "width": 3,
+      "space": 17576,
+      "entropy_uniform_bits": 14.101319154423276,
+      "samples": [
+        {
+          "attempts": 17576,
+          "seconds": 0.01033859999915876,
+          "recovered": "zzz",
+          "expected": "zzz",
+          "target_md5": "f3abb86bd34cf4d52698f14c0da1dc60",
+          "complete": true,
+          "rate_per_second": 1700036.7555984503,
+          "deadline_reached": false
+        },
+        {
+          "attempts": 17576,
+          "seconds": 0.010102700000061304,
+          "recovered": "zzz",
+          "expected": "zzz",
+          "target_md5": "f3abb86bd34cf4d52698f14c0da1dc60",
+          "complete": true,
+          "rate_per_second": 1739732.942668133,
+          "deadline_reached": false
+        },
+        {
+          "attempts": 17576,
+          "seconds": 0.010337199999412405,
+          "recovered": "zzz",
+          "expected": "zzz",
+          "target_md5": "f3abb86bd34cf4d52698f14c0da1dc60",
+          "complete": true,
+          "rate_per_second": 1700266.9969623368,
+          "deadline_reached": false
+        }
+      ],
+      "median_seconds": 0.010337199999412405,
+      "complete": true
+    },
+    {
+      "alphabet_id": "lower",
+      "label": "Малі латинські літери",
+      "alphabet": "abcdefghijklmnopqrstuvwxyz",
+      "alphabet_size": 26,
+      "width": 4,
+      "space": 456976,
+      "entropy_uniform_bits": 18.801758872564367,
+      "samples": [
+        {
+          "attempts": 456976,
+          "seconds": 0.2662528000000748,
+          "recovered": "zzzz",
+          "expected": "zzzz",
+          "target_md5": "02c425157ecd32f259548b33402ff6d3",
+          "complete": true,
+          "rate_per_second": 1716323.7344353623,
+          "deadline_reached": false
+        },
+        {
+          "attempts": 456976,
+          "seconds": 0.2663646000000881,
+          "recovered": "zzzz",
+          "expected": "zzzz",
+          "target_md5": "02c425157ecd32f259548b33402ff6d3",
+          "complete": true,
+          "rate_per_second": 1715603.349693799,
+          "deadline_reached": false
+        },
+        {
+          "attempts": 456976,
+          "seconds": 0.2683551999998599,
+          "recovered": "zzzz",
+          "expected": "zzzz",
+          "target_md5": "02c425157ecd32f259548b33402ff6d3",
+          "complete": true,
+          "rate_per_second": 1702877.3804280243,
+          "deadline_reached": false
+        }
+      ],
+      "median_seconds": 0.2663646000000881,
+      "complete": true
+    },
+    {
+      "alphabet_id": "upper",
+      "label": "Великі латинські літери",
+      "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "alphabet_size": 26,
+      "width": 1,
+      "space": 26,
+      "entropy_uniform_bits": 4.700439718141092,
+      "samples": [
+        {
+          "attempts": 26,
+          "seconds": 2.049999966402538e-05,
+          "recovered": "Z",
+          "expected": "Z",
+          "target_md5": "21c2e59531c8710156d34a3c30ac81d5",
+          "complete": true,
+          "rate_per_second": 1268292.7037128857,
+          "deadline_reached": false
+        },
+        {
+          "attempts": 26,
+          "seconds": 1.6200001482502557e-05,
+          "recovered": "Z",
+          "expected": "Z",
+          "target_md5": "21c2e59531c8710156d34a3c30ac81d5",
+          "complete": true,
+          "rate_per_second": 1604938.1247330324,
+          "deadline_reached": false
+        },
+        {
+          "attempts": 26,
+          "seconds": 6.269999903452117e-05,
+          "recovered": "Z",
+          "expected": "Z",
+          "target_md5": "21c2e59531c8710156d34a3c30ac81d5",
+          "complete": true,
+          "rate_per_second": 414673.0526372895,
+          "deadline_reached": false
+        }
+      ],
+      "median_seconds": 2.049999966402538e-05,
+      "complete": true
+    },
+    {
+      "alphabet_id": "upper",
+      "label": "Великі латинські літери",
+      "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "alphabet_size": 26,
+      "width": 2,
+      "space": 676,
+      "entropy_uniform_bits": 9.400879436282183,
+      "samples": [
+        {
+          "attempts": 676,
+          "seconds": 0.00038580000000365544,
+          "recovered": "ZZ",
+          "expected": "ZZ",
+          "target_md5": "dc18d83abfd9f87d396e8fd6b6ac0fe1",
+          "complete": true,
+          "rate_per_second": 1752203.2140839682,
+          "deadline_reached": false
+        },
+        {
+          "attempts": 676,
+          "seconds": 0.00039429999924323056,
+          "recovered": "ZZ",
+          "expected": "ZZ",
+          "target_md5": "dc18d83abfd9f87d396e8fd6b6ac0fe1",
+          "complete": true,
+          "rate_per_second": 1714430.6398615995,
+          "deadline_reached": false
+        },
+        {
+          "attempts": 676,
+          "seconds": 0.0004028000003017951,
+          "recovered": "ZZ",
+          "expected": "ZZ",
+          "target_md5": "dc18d83abfd9f87d396e8fd6b6ac0fe1",
+          "complete": true,
+          "rate_per_second": 1678252.2331020648,
+          "deadline_reached": false
+        }
+      ],
+      "median_seconds": 0.00039429999924323056,
+      "complete": true
+    },
+    {
+      "alphabet_id": "upper",
+      "label": "Великі латинські літери",
+      "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "alphabet_size": 26,
+      "width": 3,
+      "space": 17576,
+      "entropy_uniform_bits": 14.101319154423276,
+      "samples": [
+        {
+          "attempts": 17576,
+          "seconds": 0.010330499999327003,
+          "recovered": "ZZZ",
+          "expected": "ZZZ",
+          "target_md5": "0745064918b49693cca64d6b6a13d28a",
+          "complete": true,
+          "rate_per_second": 1701369.7305207895,
+          "deadline_reached": false
+        },
+        {
+          "attempts": 17576,
+          "seconds": 0.01031669999974838,
+          "recovered": "ZZZ",
+          "expected": "ZZZ",
+          "target_md5": "0745064918b49693cca64d6b6a13d28a",
+          "complete": true,
+          "rate_per_second": 1703645.545613294,
+          "deadline_reached": false
+        },
+        {
+          "attempts": 17576,
+          "seconds": 0.010160199999518227,
+          "recovered": "ZZZ",
+          "expected": "ZZZ",
+          "target_md5": "0745064918b49693cca64d6b6a13d28a",
+          "complete": true,
+          "rate_per_second": 1729887.2070267724,
+          "deadline_reached": false
+        }
+      ],
+      "median_seconds": 0.01031669999974838,
+      "complete": true
+    },
+    {
+      "alphabet_id": "upper",
+      "label": "Великі латинські літери",
+      "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "alphabet_size": 26,
+      "width": 4,
+      "space": 456976,
+      "entropy_uniform_bits": 18.801758872564367,
+      "samples": [
+        {
+          "attempts": 456976,
+          "seconds": 0.26767870000003313,
+          "recovered": "ZZZZ",
+          "expected": "ZZZZ",
+          "target_md5": "4ddf7fd96ffcf749d2f1ee6efb64cc88",
+          "complete": true,
+          "rate_per_second": 1707181.034575943,
+          "deadline_reached": false
+        },
+        {
+          "attempts": 456976,
+          "seconds": 0.2671523999997589,
+          "recovered": "ZZZZ",
+          "expected": "ZZZZ",
+          "target_md5": "4ddf7fd96ffcf749d2f1ee6efb64cc88",
+          "complete": true,
+          "rate_per_second": 1710544.2436617166,
+          "deadline_reached": false
+        },
+        {
+          "attempts": 456976,
+          "seconds": 0.26708879999932833,
+          "recovered": "ZZZZ",
+          "expected": "ZZZZ",
+          "target_md5": "4ddf7fd96ffcf749d2f1ee6efb64cc88",
+          "complete": true,
+          "rate_per_second": 1710951.5636790057,
+          "deadline_reached": false
+        }
+      ],
+      "median_seconds": 0.2671523999997589,
+      "complete": true
+    },
+    {
+      "alphabet_id": "lower_digits",
+      "label": "Малі літери й цифри",
+      "alphabet": "abcdefghijklmnopqrstuvwxyz0123456789",
+      "alphabet_size": 36,
+      "width": 1,
+      "space": 36,
+      "entropy_uniform_bits": 5.169925001442312,
+      "samples": [
+        {
+          "attempts": 36,
+          "seconds": 2.539999877626542e-05,
+          "recovered": "9",
+          "expected": "9",
+          "target_md5": "45c48cce2e2d7fbdea1afc51c7c6ad26",
+          "complete": true,
+          "rate_per_second": 1417322.9029301987,
+          "deadline_reached": false
+        },
+        {
+          "attempts": 36,
+          "seconds": 2.159999894502107e-05,
+          "recovered": "9",
+          "expected": "9",
+          "target_md5": "45c48cce2e2d7fbdea1afc51c7c6ad26",
+          "complete": true,
+          "rate_per_second": 1666666.7480693657,
+          "deadline_reached": false
+        },
+        {
+          "attempts": 36,
+          "seconds": 2.1099998775753193e-05,
+          "recovered": "9",
+          "expected": "9",
+          "target_md5": "45c48cce2e2d7fbdea1afc51c7c6ad26",
+          "complete": true,
+          "rate_per_second": 1706161.2364342392,
+          "deadline_reached": false
+        }
+      ],
+      "median_seconds": 2.159999894502107e-05,
+      "complete": true
+    },
+    {
+      "alphabet_id": "lower_digits",
+      "label": "Малі літери й цифри",
+      "alphabet": "abcdefghijklmnopqrstuvwxyz0123456789",
+      "alphabet_size": 36,
+      "width": 2,
+      "space": 1296,
+      "entropy_uniform_bits": 10.339850002884624,
+      "samples": [
+        {
+          "attempts": 1296,
+          "seconds": 0.0007618999989063013,
+          "recovered": "99",
+          "expected": "99",
+          "target_md5": "ac627ab1ccbdb62ec96e702f07f6425b",
+          "complete": true,
+          "rate_per_second": 1701010.6337582269,
+          "deadline_reached": false
+        },
+        {
+          "attempts": 1296,
+          "seconds": 0.000742500000342261,
+          "recovered": "99",
+          "expected": "99",
+          "target_md5": "ac627ab1ccbdb62ec96e702f07f6425b",
+          "complete": true,
+          "rate_per_second": 1745454.544649965,
+          "deadline_reached": false
+        },
+        {
+          "attempts": 1296,
+          "seconds": 0.0007495999998354819,
+          "recovered": "99",
+          "expected": "99",
+          "target_md5": "ac627ab1ccbdb62ec96e702f07f6425b",
+          "complete": true,
+          "rate_per_second": 1728922.0921617383,
+          "deadline_reached": false
+        }
+      ],
+      "median_seconds": 0.0007495999998354819,
+      "complete": true
+    },
+    {
+      "alphabet_id": "lower_digits",
+      "label": "Малі літери й цифри",
+      "alphabet": "abcdefghijklmnopqrstuvwxyz0123456789",
+      "alphabet_size": 36,
+      "width": 3,
+      "space": 46656,
+      "entropy_uniform_bits": 15.509775004326936,
+      "samples": [
+        {
+          "attempts": 46656,
+          "seconds": 0.02694319999864092,
+          "recovered": "999",
+          "expected": "999",
+          "target_md5": "b706835de79a2b4e80506f582af3676a",
+          "complete": true,
+          "rate_per_second": 1731642.8635927967,
+          "deadline_reached": false
+        },
+        {
+          "attempts": 46656,
+          "seconds": 0.026808899998286506,
+          "recovered": "999",
+          "expected": "999",
+          "target_md5": "b706835de79a2b4e80506f582af3676a",
+          "complete": true,
+          "rate_per_second": 1740317.581213031,
+          "deadline_reached": false
+        },
+        {
+          "attempts": 46656,
+          "seconds": 0.027031100000385777,
+          "recovered": "999",
+          "expected": "999",
+          "target_md5": "b706835de79a2b4e80506f582af3676a",
+          "complete": true,
+          "rate_per_second": 1726011.8899835427,
+          "deadline_reached": false
+        }
+      ],
+      "median_seconds": 0.02694319999864092,
+      "complete": true
+    },
+    {
+      "alphabet_id": "lower_digits",
+      "label": "Малі літери й цифри",
+      "alphabet": "abcdefghijklmnopqrstuvwxyz0123456789",
+      "alphabet_size": 36,
+      "width": 4,
+      "space": 1679616,
+      "entropy_uniform_bits": 20.67970000576925,
+      "samples": [
+        {
+          "attempts": 1679616,
+          "seconds": 0.9876736000005621,
+          "recovered": "9999",
+          "expected": "9999",
+          "target_md5": "fa246d0262c3925617b0c72bb20eeb1d",
+          "complete": true,
+          "rate_per_second": 1700578.00471638,
+          "deadline_reached": false
+        },
+        {
+          "attempts": 1679616,
+          "seconds": 0.9783239999997022,
+          "recovered": "9999",
+          "expected": "9999",
+          "target_md5": "fa246d0262c3925617b0c72bb20eeb1d",
+          "complete": true,
+          "rate_per_second": 1716830.007237389,
+          "deadline_reached": false
+        },
+        {
+          "attempts": 1679616,
+          "seconds": 0.9862697999997181,
+          "recovered": "9999",
+          "expected": "9999",
+          "target_md5": "fa246d0262c3925617b0c72bb20eeb1d",
+          "complete": true,
+          "rate_per_second": 1702998.5101444656,
+          "deadline_reached": false
+        }
+      ],
+      "median_seconds": 0.9862697999997181,
+      "complete": true
+    },
+    {
+      "alphabet_id": "mixed",
+      "label": "Латинські літери двох регістрів",
+      "alphabet": "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "alphabet_size": 52,
+      "width": 1,
+      "space": 52,
+      "entropy_uniform_bits": 5.700439718141092,
+      "samples": [
+        {
+          "attempts": 52,
+          "seconds": 3.5200000638724305e-05,
+          "recovered": "Z",
+          "expected": "Z",
+          "target_md5": "21c2e59531c8710156d34a3c30ac81d5",
+          "complete": true,
+          "rate_per_second": 1477272.700466762,
+          "deadline_reached": false
+        },
+        {
+          "attempts": 52,
+          "seconds": 3.0499999411404133e-05,
+          "recovered": "Z",
+          "expected": "Z",
+          "target_md5": "21c2e59531c8710156d34a3c30ac81d5",
+          "complete": true,
+          "rate_per_second": 1704918.065688778,
+          "deadline_reached": false
+        },
+        {
+          "attempts": 52,
+          "seconds": 3.0100000003585592e-05,
+          "recovered": "Z",
+          "expected": "Z",
+          "target_md5": "21c2e59531c8710156d34a3c30ac81d5",
+          "complete": true,
+          "rate_per_second": 1727574.7506247715,
+          "deadline_reached": false
+        }
+      ],
+      "median_seconds": 3.0499999411404133e-05,
+      "complete": true
+    },
+    {
+      "alphabet_id": "mixed",
+      "label": "Латинські літери двох регістрів",
+      "alphabet": "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "alphabet_size": 52,
+      "width": 2,
+      "space": 2704,
+      "entropy_uniform_bits": 11.400879436282183,
+      "samples": [
+        {
+          "attempts": 2704,
+          "seconds": 0.001541099998576101,
+          "recovered": "ZZ",
+          "expected": "ZZ",
+          "target_md5": "dc18d83abfd9f87d396e8fd6b6ac0fe1",
+          "complete": true,
+          "rate_per_second": 1754590.8782677052,
+          "deadline_reached": false
+        },
+        {
+          "attempts": 2704,
+          "seconds": 0.0015643999995518243,
+          "recovered": "ZZ",
+          "expected": "ZZ",
+          "target_md5": "dc18d83abfd9f87d396e8fd6b6ac0fe1",
+          "complete": true,
+          "rate_per_second": 1728458.1953302564,
+          "deadline_reached": false
+        },
+        {
+          "attempts": 2704,
+          "seconds": 0.002030699999522767,
+          "recovered": "ZZ",
+          "expected": "ZZ",
+          "target_md5": "dc18d83abfd9f87d396e8fd6b6ac0fe1",
+          "complete": true,
+          "rate_per_second": 1331560.5459375903,
+          "deadline_reached": false
+        }
+      ],
+      "median_seconds": 0.0015643999995518243,
+      "complete": true
+    },
+    {
+      "alphabet_id": "mixed",
+      "label": "Латинські літери двох регістрів",
+      "alphabet": "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "alphabet_size": 52,
+      "width": 3,
+      "space": 140608,
+      "entropy_uniform_bits": 17.101319154423276,
+      "samples": [
+        {
+          "attempts": 140608,
+          "seconds": 0.08107310000013968,
+          "recovered": "ZZZ",
+          "expected": "ZZZ",
+          "target_md5": "0745064918b49693cca64d6b6a13d28a",
+          "complete": true,
+          "rate_per_second": 1734336.0498088484,
+          "deadline_reached": false
+        },
+        {
+          "attempts": 140608,
+          "seconds": 0.08232519999910437,
+          "recovered": "ZZZ",
+          "expected": "ZZZ",
+          "target_md5": "0745064918b49693cca64d6b6a13d28a",
+          "complete": true,
+          "rate_per_second": 1707958.195079146,
+          "deadline_reached": false
+        },
+        {
+          "attempts": 140608,
+          "seconds": 0.0811098000012862,
+          "recovered": "ZZZ",
+          "expected": "ZZZ",
+          "target_md5": "0745064918b49693cca64d6b6a13d28a",
+          "complete": true,
+          "rate_per_second": 1733551.309432033,
+          "deadline_reached": false
+        }
+      ],
+      "median_seconds": 0.0811098000012862,
+      "complete": true
+    },
+    {
+      "alphabet_id": "mixed",
+      "label": "Латинські літери двох регістрів",
+      "alphabet": "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "alphabet_size": 52,
+      "width": 4,
+      "space": 7311616,
+      "entropy_uniform_bits": 22.801758872564367,
+      "samples": [
+        {
+          "attempts": 7311616,
+          "seconds": 4.269318399999975,
+          "recovered": "ZZZZ",
+          "expected": "ZZZZ",
+          "target_md5": "4ddf7fd96ffcf749d2f1ee6efb64cc88",
+          "complete": true,
+          "rate_per_second": 1712595.6218210484,
+          "deadline_reached": false
+        },
+        {
+          "attempts": 7311616,
+          "seconds": 4.29819580000003,
+          "recovered": "ZZZZ",
+          "expected": "ZZZZ",
+          "target_md5": "4ddf7fd96ffcf749d2f1ee6efb64cc88",
+          "complete": true,
+          "rate_per_second": 1701089.559484458,
+          "deadline_reached": false
+        },
+        {
+          "attempts": 7311616,
+          "seconds": 4.304543199999898,
+          "recovered": "ZZZZ",
+          "expected": "ZZZZ",
+          "target_md5": "4ddf7fd96ffcf749d2f1ee6efb64cc88",
+          "complete": true,
+          "rate_per_second": 1698581.1641988338,
+          "deadline_reached": false
+        }
+      ],
+      "median_seconds": 4.29819580000003,
+      "complete": true
+    },
+    {
+      "alphabet_id": "mixed_digits",
+      "label": "Два регістри й цифри",
+      "alphabet": "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789",
+      "alphabet_size": 62,
+      "width": 1,
+      "space": 62,
+      "entropy_uniform_bits": 5.954196310386875,
+      "samples": [
+        {
+          "attempts": 62,
+          "seconds": 4.059999992023222e-05,
+          "recovered": "9",
+          "expected": "9",
+          "target_md5": "45c48cce2e2d7fbdea1afc51c7c6ad26",
+          "complete": true,
+          "rate_per_second": 1527093.5990594302,
+          "deadline_reached": false
+        },
+        {
+          "attempts": 62,
+          "seconds": 3.6299999919719994e-05,
+          "recovered": "9",
+          "expected": "9",
+          "target_md5": "45c48cce2e2d7fbdea1afc51c7c6ad26",
+          "complete": true,
+          "rate_per_second": 1707988.9844935914,
+          "deadline_reached": false
+        },
+        {
+          "attempts": 62,
+          "seconds": 3.5400000342633575e-05,
+          "recovered": "9",
+          "expected": "9",
+          "target_md5": "45c48cce2e2d7fbdea1afc51c7c6ad26",
+          "complete": true,
+          "rate_per_second": 1751412.41242676,
+          "deadline_reached": false
+        }
+      ],
+      "median_seconds": 3.6299999919719994e-05,
+      "complete": true
+    },
+    {
+      "alphabet_id": "mixed_digits",
+      "label": "Два регістри й цифри",
+      "alphabet": "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789",
+      "alphabet_size": 62,
+      "width": 2,
+      "space": 3844,
+      "entropy_uniform_bits": 11.90839262077375,
+      "samples": [
+        {
+          "attempts": 3844,
+          "seconds": 0.002241800000774674,
+          "recovered": "99",
+          "expected": "99",
+          "target_md5": "ac627ab1ccbdb62ec96e702f07f6425b",
+          "complete": true,
+          "rate_per_second": 1714693.5492335048,
+          "deadline_reached": false
+        },
+        {
+          "attempts": 3844,
+          "seconds": 0.0022594999991270015,
+          "recovered": "99",
+          "expected": "99",
+          "target_md5": "ac627ab1ccbdb62ec96e702f07f6425b",
+          "complete": true,
+          "rate_per_second": 1701261.34166196,
+          "deadline_reached": false
+        },
+        {
+          "attempts": 3844,
+          "seconds": 0.0022348000002239132,
+          "recovered": "99",
+          "expected": "99",
+          "target_md5": "ac627ab1ccbdb62ec96e702f07f6425b",
+          "complete": true,
+          "rate_per_second": 1720064.4351238834,
+          "deadline_reached": false
+        }
+      ],
+      "median_seconds": 0.002241800000774674,
+      "complete": true
+    },
+    {
+      "alphabet_id": "mixed_digits",
+      "label": "Два регістри й цифри",
+      "alphabet": "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789",
+      "alphabet_size": 62,
+      "width": 3,
+      "space": 238328,
+      "entropy_uniform_bits": 17.862588931160623,
+      "samples": [
+        {
+          "attempts": 238328,
+          "seconds": 0.13842079999994894,
+          "recovered": "999",
+          "expected": "999",
+          "target_md5": "b706835de79a2b4e80506f582af3676a",
+          "complete": true,
+          "rate_per_second": 1721764.3591142944,
+          "deadline_reached": false
+        },
+        {
+          "attempts": 238328,
+          "seconds": 0.13812439999855997,
+          "recovered": "999",
+          "expected": "999",
+          "target_md5": "b706835de79a2b4e80506f582af3676a",
+          "complete": true,
+          "rate_per_second": 1725459.0789352548,
+          "deadline_reached": false
+        },
+        {
+          "attempts": 238328,
+          "seconds": 0.13949830000092334,
+          "recovered": "999",
+          "expected": "999",
+          "target_md5": "b706835de79a2b4e80506f582af3676a",
+          "complete": true,
+          "rate_per_second": 1708465.264439943,
+          "deadline_reached": false
+        }
+      ],
+      "median_seconds": 0.13842079999994894,
+      "complete": true
+    },
+    {
+      "alphabet_id": "mixed_digits",
+      "label": "Два регістри й цифри",
+      "alphabet": "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789",
+      "alphabet_size": 62,
+      "width": 4,
+      "space": 14776336,
+      "entropy_uniform_bits": 23.8167852415475,
+      "samples": [
+        {
+          "attempts": 14776336,
+          "seconds": 8.67360539999936,
+          "recovered": "9999",
+          "expected": "9999",
+          "target_md5": "fa246d0262c3925617b0c72bb20eeb1d",
+          "complete": true,
+          "rate_per_second": 1703597.9063563452,
+          "deadline_reached": false
+        },
+        {
+          "attempts": 14776336,
+          "seconds": 8.689240399999107,
+          "recovered": "9999",
+          "expected": "9999",
+          "target_md5": "fa246d0262c3925617b0c72bb20eeb1d",
+          "complete": true,
+          "rate_per_second": 1700532.5344665935,
+          "deadline_reached": false
+        },
+        {
+          "attempts": 14776336,
+          "seconds": 8.655157699999108,
+          "recovered": "9999",
+          "expected": "9999",
+          "target_md5": "fa246d0262c3925617b0c72bb20eeb1d",
+          "complete": true,
+          "rate_per_second": 1707228.974002579,
+          "deadline_reached": false
+        }
+      ],
+      "median_seconds": 8.67360539999936,
+      "complete": true
+    },
+    {
+      "alphabet_id": "lower",
+      "label": "Малі латинські літери",
+      "alphabet": "abcdefghijklmnopqrstuvwxyz",
+      "alphabet_size": 26,
+      "width": 5,
+      "space": 11881376,
+      "entropy_uniform_bits": 23.502198590705458,
+      "samples": [
+        {
+          "attempts": 11881376,
+          "seconds": 7.001747300000716,
+          "recovered": "zzzzz",
+          "expected": "zzzzz",
+          "target_md5": "95ebc3c7b3b9f1d2c40fec14415d3cb8",
+          "complete": true,
+          "rate_per_second": 1696915.8541324085,
+          "deadline_reached": false
+        },
+        {
+          "attempts": 11881376,
+          "seconds": 7.3678569000003336,
+          "recovered": "zzzzz",
+          "expected": "zzzzz",
+          "target_md5": "95ebc3c7b3b9f1d2c40fec14415d3cb8",
+          "complete": true,
+          "rate_per_second": 1612595.923245939,
+          "deadline_reached": false
+        },
+        {
+          "attempts": 11881376,
+          "seconds": 7.222225100000287,
+          "recovered": "zzzzz",
+          "expected": "zzzzz",
+          "target_md5": "95ebc3c7b3b9f1d2c40fec14415d3cb8",
+          "complete": true,
+          "rate_per_second": 1645112.9444856998,
+          "deadline_reached": false
+        }
+      ],
+      "median_seconds": 7.222225100000287,
+      "complete": true
+    },
+    {
+      "alphabet_id": "upper",
+      "label": "Великі латинські літери",
+      "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "alphabet_size": 26,
+      "width": 5,
+      "space": 11881376,
+      "entropy_uniform_bits": 23.502198590705458,
+      "samples": [
+        {
+          "attempts": 11881376,
+          "seconds": 7.362319600000774,
+          "recovered": "ZZZZZ",
+          "expected": "ZZZZZ",
+          "target_md5": "8f113e38d28a79a5a451b16048cc2b72",
+          "complete": true,
+          "rate_per_second": 1613808.77841798,
+          "deadline_reached": false
+        },
+        {
+          "attempts": 11881376,
+          "seconds": 7.753391300000658,
+          "recovered": "ZZZZZ",
+          "expected": "ZZZZZ",
+          "target_md5": "8f113e38d28a79a5a451b16048cc2b72",
+          "complete": true,
+          "rate_per_second": 1532410.2112580067,
+          "deadline_reached": false
+        },
+        {
+          "attempts": 11881376,
+          "seconds": 7.923825099998794,
+          "recovered": "ZZZZZ",
+          "expected": "ZZZZZ",
+          "target_md5": "8f113e38d28a79a5a451b16048cc2b72",
+          "complete": true,
+          "rate_per_second": 1499449.5524644793,
+          "deadline_reached": false
+        }
+      ],
+      "median_seconds": 7.753391300000658,
+      "complete": true
+    },
+    {
+      "alphabet_id": "lower_digits",
+      "label": "Малі літери й цифри",
+      "alphabet": "abcdefghijklmnopqrstuvwxyz0123456789",
+      "alphabet_size": 36,
+      "width": 5,
+      "space": 60466176,
+      "entropy_uniform_bits": 25.84962500721156,
+      "samples": [
+        {
+          "attempts": 60466176,
+          "seconds": 38.707454000001235,
+          "recovered": "99999",
+          "expected": "99999",
+          "target_md5": "d3eb9a9233e52948740d7eb8c3062d14",
+          "complete": true,
+          "rate_per_second": 1562132.6062933013,
+          "deadline_reached": false
+        }
+      ],
+      "median_seconds": 38.707454000001235,
+      "complete": true
+    },
+    {
+      "alphabet_id": "lower",
+      "label": "Малі латинські літери",
+      "alphabet": "abcdefghijklmnopqrstuvwxyz",
+      "alphabet_size": 26,
+      "width": 6,
+      "space": 308915776,
+      "entropy_uniform_bits": 28.202638308846552,
+      "samples": [
+        {
+          "attempts": 308915776,
+          "seconds": 186.25308750000113,
+          "recovered": "zzzzzz",
+          "expected": "zzzzzz",
+          "target_md5": "453e41d218e071ccfb2d1c99ce23906a",
+          "complete": true,
+          "rate_per_second": 1658580.69869579,
+          "deadline_reached": false
+        }
+      ],
+      "median_seconds": 186.25308750000113,
+      "complete": true
+    },
+    {
+      "alphabet_id": "mixed",
+      "label": "Латинські літери двох регістрів",
+      "alphabet": "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "alphabet_size": 52,
+      "width": 5,
+      "space": 380204032,
+      "entropy_uniform_bits": 28.502198590705458,
+      "samples": [
+        {
+          "attempts": 380204032,
+          "seconds": 235.2037502000003,
+          "recovered": "ZZZZZ",
+          "expected": "ZZZZZ",
+          "target_md5": "8f113e38d28a79a5a451b16048cc2b72",
+          "complete": true,
+          "rate_per_second": 1616487.967035823,
+          "deadline_reached": false
+        }
+      ],
+      "median_seconds": 235.2037502000003,
+      "complete": true
+    },
+    {
+      "alphabet_id": "mixed_digits",
+      "label": "Два регістри й цифри",
+      "alphabet": "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789",
+      "alphabet_size": 62,
+      "width": 5,
+      "space": 916132832,
+      "entropy_uniform_bits": 29.770981551934376,
+      "samples": [
+        {
+          "attempts": 916132832,
+          "seconds": 561.435762000001,
+          "recovered": "99999",
+          "expected": "99999",
+          "target_md5": "d3eb9a9233e52948740d7eb8c3062d14",
+          "complete": true,
+          "rate_per_second": 1631767.8602026752,
+          "deadline_reached": false
+        }
+      ],
+      "median_seconds": 561.435762000001,
+      "complete": true
+    }
+  ],
+  "parallel": [
+    {
+      "workers": 1,
+      "alphabet_id": "mixed_digits",
+      "width": 4,
+      "space": 14776336,
+      "warmup_processes_observed": 1,
+      "samples": [
+        {
+          "repeat": 1,
+          "attempts": 14776336,
+          "seconds": 9.345608899999206,
+          "complete": true
+        },
+        {
+          "repeat": 2,
+          "attempts": 14776336,
+          "seconds": 9.532562299998972,
+          "complete": true
+        },
+        {
+          "repeat": 3,
+          "attempts": 14776336,
+          "seconds": 9.428974399999788,
+          "complete": true
+        }
+      ],
+      "median_seconds": 9.428974399999788,
+      "complete": true,
+      "includes_process_startup": false,
+      "includes_job_dispatch_and_collection": true
+    },
+    {
+      "workers": 2,
+      "alphabet_id": "mixed_digits",
+      "width": 4,
+      "space": 14776336,
+      "warmup_processes_observed": 2,
+      "samples": [
+        {
+          "repeat": 1,
+          "attempts": 14776336,
+          "seconds": 4.842829999999594,
+          "complete": true
+        },
+        {
+          "repeat": 2,
+          "attempts": 14776336,
+          "seconds": 5.047657400000389,
+          "complete": true
+        },
+        {
+          "repeat": 3,
+          "attempts": 14776336,
+          "seconds": 5.026595400000588,
+          "complete": true
+        }
+      ],
+      "median_seconds": 5.026595400000588,
+      "complete": true,
+      "includes_process_startup": false,
+      "includes_job_dispatch_and_collection": true
+    },
+    {
+      "workers": 4,
+      "alphabet_id": "mixed_digits",
+      "width": 4,
+      "space": 14776336,
+      "warmup_processes_observed": 4,
+      "samples": [
+        {
+          "repeat": 1,
+          "attempts": 14776336,
+          "seconds": 2.4132530000006227,
+          "complete": true
+        },
+        {
+          "repeat": 2,
+          "attempts": 14776336,
+          "seconds": 2.6640067999996973,
+          "complete": true
+        },
+        {
+          "repeat": 3,
+          "attempts": 14776336,
+          "seconds": 2.804636200000459,
+          "complete": true
+        }
+      ],
+      "median_seconds": 2.6640067999996973,
+      "complete": true,
+      "includes_process_startup": false,
+      "includes_job_dispatch_and_collection": true
+    },
+    {
+      "workers": 8,
+      "alphabet_id": "mixed_digits",
+      "width": 4,
+      "space": 14776336,
+      "warmup_processes_observed": 6,
+      "samples": [
+        {
+          "repeat": 1,
+          "attempts": 14776336,
+          "seconds": 1.3719504000000597,
+          "complete": true
+        },
+        {
+          "repeat": 2,
+          "attempts": 14776336,
+          "seconds": 1.3807254000003013,
+          "complete": true
+        },
+        {
+          "repeat": 3,
+          "attempts": 14776336,
+          "seconds": 1.9202322000001004,
+          "complete": true
+        }
+      ],
+      "median_seconds": 1.3807254000003013,
+      "complete": true,
+      "includes_process_startup": false,
+      "includes_job_dispatch_and_collection": true
+    },
+    {
+      "workers": 16,
+      "alphabet_id": "mixed_digits",
+      "width": 4,
+      "space": 14776336,
+      "warmup_processes_observed": 9,
+      "samples": [
+        {
+          "repeat": 1,
+          "attempts": 14776336,
+          "seconds": 0.9980329999998503,
+          "complete": true
+        },
+        {
+          "repeat": 2,
+          "attempts": 14776336,
+          "seconds": 0.9548603000002913,
+          "complete": true
+        },
+        {
+          "repeat": 3,
+          "attempts": 14776336,
+          "seconds": 1.0128808999998,
+          "complete": true
+        }
+      ],
+      "median_seconds": 0.9980329999998503,
+      "complete": true,
+      "includes_process_startup": false,
+      "includes_job_dispatch_and_collection": true
+    }
+  ],
+  "elapsed_seconds": 1190.0888087999992,
+  "finished_at_utc": "2026-10-03T15:58:54.558683+00:00",
+  "total_hash_operations": 2067440098
+}
