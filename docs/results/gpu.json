@@ -1,7 +1,7 @@
 {
   "status": "completed",
   "device": {
-    "name": "NVIDIA GeForce RTX 4090",
+    "name": "відеокарта серії RTX",
     "vendor": "NVIDIA Corporation",
     "driver_version": "610.47",
     "opencl_version": "OpenCL 3.0 CUDA",

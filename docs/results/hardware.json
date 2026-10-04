@@ -6,7 +6,7 @@
   "machine": {
     "cpu": [
       {
-        "Name": "Intel(R) Core(TM) i9-14900K",
+        "Name": "Intel",
         "Manufacturer": "GenuineIntel",
         "NumberOfCores": 24,
         "NumberOfLogicalProcessors": 32,
